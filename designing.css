@@ -1,0 +1,341 @@
+@font-face {
+    font-family: taskbar-font;
+    src: url(./fonts/Roboto-Regular.ttf);
+} 
+@font-face {
+    font-family: taskbar-font2;
+    src: url(./fonts/Roboto-Light.ttf);
+}
+    
+
+.nav-bar img{
+       width: 15px;
+       height: 18px;
+       margin-left: 5px;
+       margin-right: 5px;
+       position: relative;
+       top: -1px;
+       left: -4px;
+}
+.nav-bar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color:lightgray;
+    margin-left: -8px;
+    margin-right: -8px;
+    line-height: 0%;
+    position: relative;
+    top: -10px;
+    
+    
+} 
+.nav-bar a:hover{
+   
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    backdrop-filter: blur(16.2px);
+}
+.nav-bar a{
+    color: black;
+    margin: 10px;
+    margin-left: 25px;
+    margin-left: 25px;
+    text-decoration: none;
+    font-family: taskbar-font;
+    font-size: small;
+    position: relative;
+    top: -3px;
+}
+.apple-logo img{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 560px;
+    display: flex;
+    flex-flow: row wrap;
+    z-index: -1;
+    }
+
+.apple-logo2 img{
+   position: relative;
+   top: 490px;
+   right: 20px;
+   width: 1365px;
+}
+.link{
+    color:#48C0D9;
+    position: relative;
+    top: 120px;
+    left: 555px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: taskbar-font;
+    font-size: x-large;
+}
+.link1{
+    color:#48C0D9;
+    position: relative;
+    top: 80px;
+    left: 555px;
+    margin: 10px;
+    text-decoration: none;
+    font-family: taskbar-font;
+    font-size:x-large;
+}
+.border{
+    margin: 30px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    position: relative;
+    top: 500px;
+}
+.box{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    right: 25px;
+    background-color: #48C0D9;
+    background: url(./image/promo_macbook_air_15_midnight__3zojl1nanrme_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+.box2{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    left: 22px;
+    background-color: #48C0D9;
+    background: url(./image/promo_apple_vision_pro__f4v4zp0sum2y_small_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box3{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    right: 25px;
+    background-color: #48C0D9;
+    background: url(./image/promo_apple_watch_series_8_spring__d9hfvufh7hyu_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box4{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    left: 22px;
+    background-color: #48C0D9;
+    background: url(./image/promo_bts2023_startframe__exvt2t1iuxme_large.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.box5{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    right: 25px;
+    background-color: #48C0D9;
+    background: url(./image/promo_ipadpro_refresh__evi9utuixwuq_large.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+
+}
+.box6{
+    width: 49%;
+    height: 500px;
+    margin: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    position: relative;
+    top: -100px;
+    left: 22px;
+    background-color: #48C0D9;
+    background: url(./image/iphone_tradein_promo__d5au3rkw5kuq_large_2x.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.text1 {
+    text-align: center;
+    font-family: taskbar-font;
+}
+.text2{
+    text-align: center;
+    font-family: taskbar-font2;
+}
+.text3 , a{
+    font-family: taskbar-font;
+    text-decoration: none;
+    text-align: center;
+    color: #48C0D9;
+    
+    
+}
+.box2-content img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 330px;
+}
+.box2-content2 p{
+    text-align: center;
+    font-family: taskbar-font;
+    font-size: large;
+    position: relative;
+    top: 320px;
+}
+.box2-content3 p{
+    text-align: center;
+    font-family: taskbar-font;
+    font-size: large;
+    position: relative;
+    top: 316px
+}
+.box2-content4{
+    font-family: taskbar-font;
+    text-decoration: none;
+    text-align: center;
+    color: #48C0D9;
+    position: relative;
+    top: 310px;
+}
+.box3-content img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 100px;
+    height: auto;
+    position: relative;
+    top: 60px;
+}
+.box3-content2{
+    color: white;
+    font-family: taskbar-font;
+    text-align: center;
+    position: relative;
+    top: 50px;
+}
+.box3-content3{
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    font-family: taskbar-font;
+}
+.box4-content{
+    text-align: center;
+    font-family: taskbar-font;
+    font-size: medium;
+    position: relative;
+    top: 30px;
+}
+.box4-content2{
+    text-align: center;
+    font-family: taskbar-font;
+    font-size: large;
+    position: relative;
+    top: 25px;
+}
+.box4-content3{
+    text-align: center;
+    font-family: taskbar-font;
+    position: relative;
+    top: 10px;
+}
+.box5-content{
+    text-align: center;
+    color: white;
+    font-family: taskbar-font;
+    font-size: larger;
+    position: relative;
+    top: 40px;
+
+}
+.box5-content2{
+    color: white;
+    font-family: taskbar-font;
+    font-size: medium;
+    text-align: center;
+    position: relative;
+    top: 20px;
+}
+.box5-content3 img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    left: 95px;
+    top: -27px;
+    width: 37px;
+    height: 37px;
+
+}
+.box5-content4{
+    text-align: center;
+    position: relative;
+    top: -29px;
+}
+.box6-content img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    top: 60px;
+}
+.box6-content2{
+    text-align: center;
+    font-family: taskbar-font2;
+    position: relative;
+    top: 50px;
+}
+.box6-content3{
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+.magnify img{
+    width: 15px;
+    height: 16px;
+    position: relative;
+    top: 3px;
+}
